@@ -52,6 +52,12 @@
             h3 {
                 position: absolute;
                 font-size: 20px;
+                display: none;
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
 
             img {
@@ -63,6 +69,17 @@
 
             &:hover {
                 background-color: salmon;
+                
+                h3 {
+                    display: block;
+                    &:hover{
+                        a {
+                            color: black;
+                        }
+                        
+                    }
+
+                }
 
                 img {
                 opacity: 0.2;

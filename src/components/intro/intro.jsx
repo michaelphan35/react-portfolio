@@ -1,11 +1,13 @@
 import "./intro.scss"
+import Man from "../../images/man.jpg"
+import Arrow from "../../images/downarrow.png"
 
 export default function intro() {
   return (
     <div className="intro" id='intro'>
       <div className="left">
         <div className="imgContainer">
-          <img src="images/man.jpg" alt="*" />
+          <img src={Man} alt="Placeholder img" />
         </div>
       </div>
       <div className="right">
@@ -15,7 +17,7 @@ export default function intro() {
           <h3>Recent graduate of U of A's FullStack Coding Bootcamp</h3>
         </div>
         <a href="#portfolio">
-          <img src="images/downarrow.png" alt="" />
+          <img src= {Arrow} alt="Arrow connecting to portfolio section" />
         </a>
       </div>
     </div>
