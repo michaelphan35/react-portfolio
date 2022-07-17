@@ -18,6 +18,7 @@ export default function intro() {
         </div>
         <a href="#portfolio">
           <img src= {Arrow} alt="Arrow connecting to portfolio section" />
+          <h3 className="h3">Proceed to next section!</h3>
         </a>
       </div>
     </div>

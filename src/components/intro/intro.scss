@@ -42,14 +42,23 @@
         h2{
             font-size: 35px;
         }
-        h3{
+        h3 {
             font-size: 30px;
         }
     }
-    a{
+    a {
         position: absolute;
         bottom: 10px;
         left: 50%;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+
+        .h3 {
+            color: black;
+            font-size: 22px;
+            margin-left: 20px;
+        }
 
         img{ 
             width: 50px;
@@ -61,5 +70,7 @@
                 opacity: 0;
             }
         }
+
+
     }
 }

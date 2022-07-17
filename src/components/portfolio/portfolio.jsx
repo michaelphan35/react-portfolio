@@ -4,6 +4,7 @@ import Spotify from "../../images/Capture1.JPG";
 import Commerce from "../../images/e-commerce-back-end.png";
 import Password from "../../images/password-generator.jpg";
 import WDS from "../../images/web-dev-social.png";
+import Arrow from "../../images/downarrow.png"
 
 export default function portfolio() {
   return (
@@ -38,6 +39,11 @@ export default function portfolio() {
             <h3><a href="https://github.com/michaelphan35/e-commerce" target="_blank" rel="noreferrer noopener">E-Commerce</a></h3>
           </div>
         </div>
+        <div className="transition">
+          <a href="#contact"><img src={Arrow} alt="*" /></a>
+          <h3>Proceed to next section</h3>
+        </div>
+
     </div>
   )
 }
