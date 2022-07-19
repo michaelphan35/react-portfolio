@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: inherit;
+}
 .intro {
     background-color: white;
     display: flex;
@@ -9,7 +12,7 @@
         .imgContainer {
             width: 700px;
             height: 700px;
-            background-color: aquamarine;
+            background-color: salmon;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -48,8 +51,8 @@
     }
     a {
         position: absolute;
-        bottom: 10px;
-        left: 50%;
+        bottom: 200px;
+        left: 25%;
         text-decoration: none;
         display: flex;
         justify-content: space-between;

@@ -11,8 +11,12 @@ export default function menu({ menuOpen, setMenuOpen}) {
                 <a href="#portfolio">Portfolio</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
+                <a href="#skills">Skills</a>
+            </li>
+            <li onClick={()=>setMenuOpen(false)}>
                 <a href="#contact">Contact</a>
             </li>
+
         </ul>
 
     </div>

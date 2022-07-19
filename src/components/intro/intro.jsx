@@ -15,11 +15,12 @@ export default function intro() {
           <h2>Hi There, I'm</h2>
           <h1>Michael Phan</h1>
           <h3>Recent graduate of U of A's FullStack Coding Bootcamp</h3>
-        </div>
-        <a href="#portfolio">
+          <a href="#portfolio">
           <img src= {Arrow} alt="Arrow connecting to portfolio section" />
           <h3 className="h3">Proceed to next section!</h3>
         </a>
+        </div>
+
       </div>
     </div>
   )
