@@ -1,6 +1,5 @@
 import "./navbar.scss"
 
-
 export default function navbar({ menuOpen, setMenuOpen}) {
   return (
     <div className={"navbar " + (menuOpen && "active")}>
