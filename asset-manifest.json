@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3bffb3b1.css",
-    "main.js": "/react-portfolio/static/js/main.3b2d31ad.js",
+    "main.css": "/react-portfolio/static/css/main.3e8364ba.css",
+    "main.js": "/react-portfolio/static/js/main.27468c7d.js",
     "static/media/social-api.png": "/react-portfolio/static/media/social-api.3e2e943d700c1dc43746.png",
     "static/media/e-commerce-back-end.png": "/react-portfolio/static/media/e-commerce-back-end.b5c3ca01173ccc4e1428.png",
+    "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.50d305823caabff0a88b.jpg",
     "static/media/web-dev-social.png": "/react-portfolio/static/media/web-dev-social.0fa79949490c07b69216.png",
     "static/media/resume_ss.png": "/react-portfolio/static/media/resume_ss.a157faf35b8a41e66c4a.png",
     "static/media/downarrow.png": "/react-portfolio/static/media/downarrow.745d0c868cddd806abec.png",
-    "static/media/man.jpg": "/react-portfolio/static/media/man.7ec79ba51c3e3a00ccb0.jpg",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.9fdb3a624e48f066cd1d.pdf",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.454c6ae4baa5364463df.pdf",
     "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.be76239a2ad1c3c8bfd1.jpg",
     "static/media/Capture1.JPG": "/react-portfolio/static/media/Capture1.33165242131322a154cb.JPG",
     "index.html": "/react-portfolio/index.html",
-    "main.3bffb3b1.css.map": "/react-portfolio/static/css/main.3bffb3b1.css.map",
-    "main.3b2d31ad.js.map": "/react-portfolio/static/js/main.3b2d31ad.js.map"
+    "main.3e8364ba.css.map": "/react-portfolio/static/css/main.3e8364ba.css.map",
+    "main.27468c7d.js.map": "/react-portfolio/static/js/main.27468c7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bffb3b1.css",
-    "static/js/main.3b2d31ad.js"
+    "static/css/main.3e8364ba.css",
+    "static/js/main.27468c7d.js"
   ]
 }
