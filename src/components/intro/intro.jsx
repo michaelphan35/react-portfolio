@@ -1,5 +1,5 @@
 import "./intro.scss"
-import Man from "../../images/man.jpg"
+import Profile from "../../images/profilepic.jpg"
 import Arrow from "../../images/downarrow.png"
 
 export default function intro() {
@@ -7,7 +7,7 @@ export default function intro() {
     <div className="intro" id='intro'>
       <div className="left">
         <div className="imgContainer">
-          <img src={Man} alt="Placeholder img" />
+          <img src={Profile} alt="Placeholder img" />
         </div>
       </div>
       <div className="right">

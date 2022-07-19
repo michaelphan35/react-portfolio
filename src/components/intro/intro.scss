@@ -8,6 +8,9 @@
     .left {
         flex: 0.5;
         overflow: hidden;
+        position: relative;
+        top: 100px;
+        left: 60px;
 
         .imgContainer {
             width: 700px;
@@ -20,7 +23,7 @@
             float: center;
 
             img {
-                height: 70%
+                height: 80%
             }
         }
     }
