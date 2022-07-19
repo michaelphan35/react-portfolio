@@ -1,0 +1,46 @@
+.skills{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     flex-direction: column;
+
+     .container {
+        background-color: salmon;
+        width: 700px;
+        height: 700px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        li {
+            font-size: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .transition {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+        a{
+            img{ 
+                width: 50px;
+                animation: arrowBlink 2s infinite;
+                margin-right: 20px;
+            }
+    
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}

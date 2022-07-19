@@ -40,7 +40,7 @@ export default function portfolio() {
           </div>
         </div>
         <div className="transition">
-          <a href="#contact"><img src={Arrow} alt="*" /></a>
+          <a href="#skills"><img src={Arrow} alt="*" /></a>
           <h3>Proceed to next section</h3>
         </div>
 
