@@ -57,6 +57,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        
 
         @include mobile {
             width: 100%;
@@ -73,6 +74,10 @@
             justify-content: center;
             color: white;
             position: relative;
+            scrollbar-width: none;
+            &::-webkit-scrollbar {
+                display: none;
+            }
 
             @include mobile {
                 width: 130px;
